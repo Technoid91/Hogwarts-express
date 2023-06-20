@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=La+Belle+Aurore&family=Rye&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: "Courier prime", sans-serif;
+    background-color: #DEB887
+}
+
+h1 {
+    font-family: Rye, sans-serif;
+    letter-spacing: 8px;
+    color: #B80000;
+    text-align: center;
+    padding-top: 15px;
+}
+
+header {
+    height: 120px;
+    background-color: #333;
+}
+
+#site-logo {
+    float: left;
+}
+
+#site-logo img {
+    margin: 10px 0 0 20px;
+    height: 100px;
+}
+
+#menu {
+    float: right;
+    margin-top: 40px;
+}
+
+#menu li {
+    font-size: 120%;
+    list-style-type: none;
+    margin-right: 20px;
+    letter-spacing: 4px;
+    color: #B80000;
+    float: right;
+}
+
+#book-ticket {
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 20%;
+    height: 400px;
+    background-color: #333
+}

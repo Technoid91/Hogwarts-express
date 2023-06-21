@@ -8,20 +8,20 @@
 
 body {
     font-family: "Courier prime", sans-serif;
-    background-color: #DEB887
+    background-color: black;
 }
 
 h1 {
     font-family: Rye, sans-serif;
     letter-spacing: 8px;
-    color: #B80000;
+    color: #ffcc99;
     text-align: center;
     padding-top: 15px;
 }
 
 header {
     height: 120px;
-    background-color: #333;
+    background-color: #800000;
 }
 
 #site-logo {
@@ -47,10 +47,106 @@ header {
     float: right;
 }
 
+#main {
+    background-image: url("../images/train-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
 #book-ticket {
     margin-top: 20px;
     margin-left: 10px;
+    border-radius: 4px;
     width: 20%;
     height: 400px;
-    background-color: #333
+    background-color: #333;
+    color: white;
+    opacity: .95;
+    display: inline-block;
+}
+
+#book-ticket h2 {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.from-to {
+    margin: 10px;
+    padding: 5px;
+}
+
+.from-to input {
+    width: 70%;
+    float: right;
+    padding: 4px;
+    font-size: 14px;
+    border-radius: 2px;
+}
+
+
+.direction {
+    width: 90%;
+    height: 45px;
+    margin: 10px 5%;
+    padding-top: 10px;
+    background-color: #4d4d4d;
+    border-radius: 4px;
+}
+
+#oneway {
+    float: left;
+    margin-left: 25%;
+}
+
+#return {
+    float: right;
+    margin-right: 25%;
+}
+
+#left-label {
+    float: left;
+    margin-left: 15%;
+}
+
+#right-label {
+    float: right;
+    margin-right: 15%;
+}
+
+#date-block {
+    width: 90%;
+    margin: 10px 0 10px 5%;
+}
+
+#date-block input {
+    float: right;
+    width: 70%;
+    font-size: 120%;
+}
+
+#captcha {
+    width: 70%;
+    height: 20px;
+    background-color: white;
+    background-image: url(../images/recaptcha-logo.png);
+    background-size: 15%;
+    background-position: center right;
+    background-repeat: no-repeat;
+    margin: 5px 15px;
+    padding: 15px 42px 15px 10px;
+    color: black;
+    font-family: Arial;
+}
+
+#get-ticket {
+    float: right;
+    width: 50%;
+    height: 30px;
+    margin: 10px 20px;
+    font-size: 15px;
+    border: 1px solid #ffcc99;
+    border-radius: 4px;
+    background-color: #800000;
+    color: #ffcc99
 }

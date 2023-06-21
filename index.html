@@ -24,21 +24,51 @@
         <span id="menu">
             <nav>
                 <ul>
-                    <li>About Us</li>
-                    <li>News</li>
-                    <li>Home</li>
+                    <li>
+                        <a href="#">About Us</a>
+                    </li>
+                    <li>
+                        <a href="#">News</a>
+                    </li>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
                 </ul>
             </nav>
         </span>
     </header>
-    <section id="book-ticket">
-        <h2>Book your ticket</h2>
-        <form>
+    <section id="main">
+        <div id="book-ticket">
+            <h2>Book your ticket</h2>
+            <hr>
+            <form>
+                <div class="from-to">
+                    <label for="from">From</label>
+                    <input id="from" type="text" name="Departure from" placeholder="Kingscross" required>
+                </div>
+                <div class="from-to">
+                    <label>To</label>
+                    <input id="to" type="text" name="Arrive to" placeholder="Hogsmith" required>
+                </div>
+                <div class="direction">
+                    <input id="oneway" type="radio" name="Ticket type" value="one way" required>
+                    <input id="return" type="radio" name="Ticket type" value="return" required>
+                    <br>
+                    <label id="left-label" for="oneway">One Way</label>
+                    <label id="right-label" for="return">Return</label>
+                </div>
+                <div id="date-block">
+                    <label for="date">Date</label>
+                    <input id="date" type="date" name="Departure date">
+                </div>
 
-        </form>
-    </section>
-    <section>
-        Image
+                <div id="captcha">
+                    <input id="age" type="checkbox">
+                    <label for="age">I'm not a muggle</label>
+                </div>
+                <input id="get-ticket" type="submit" value="Book Ticket">
+            </form>
+        </div>
         <h2>Your journey starts here</h2>
     </section>
 

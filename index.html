@@ -40,15 +40,14 @@
     <section id="main">
         <div id="book-ticket">
             <h2>Book your ticket</h2>
-            <hr>
             <form>
-                <div class="from-to">
+                <div class="input-align">
                     <label for="from">From</label>
-                    <input id="from" type="text" name="Departure from" placeholder="Kingscross" required>
+                    <input id="from" type="text" name="Departure from" placeholder="King's Cross" required>
                 </div>
-                <div class="from-to">
+                <div class="input-align">
                     <label>To</label>
-                    <input id="to" type="text" name="Arrive to" placeholder="Hogsmith" required>
+                    <input id="to" type="text" name="Arrive to" placeholder="Hogsmeade" required>
                 </div>
                 <div class="direction">
                     <input id="oneway" type="radio" name="Ticket type" value="one way" required>
@@ -61,7 +60,10 @@
                     <label for="date">Date</label>
                     <input id="date" type="date" name="Departure date">
                 </div>
-
+                <div class="input-align">
+                    <label for="name">Name</label>
+                    <input id="name" type="text" name="Full name" placeholder="Full Name" required>
+                </div>
                 <div id="captcha">
                     <input id="age" type="checkbox">
                     <label for="age">I'm not a muggle</label>
@@ -69,9 +71,50 @@
                 <input id="get-ticket" type="submit" value="Book Ticket">
             </form>
         </div>
-        <h2>Your journey starts here</h2>
     </section>
+    <section id="pros">
+        <h2>Your journey starts here</h2>
+        <div>
+            <h3>
+                <i class="fa-solid fa-leaf"></i>
+            </h3>
+            <h4>Eco-friendly</h4>
+            <hr>
+            <h5>Our train works on pure magic</h5>
+        </div>
+        <div>
+            <h3>
+                <i class="fa-solid fa-ghost"></i>
+            </h3>
+            <h4>Safe</h4>
+            <h5>No Dementors since the third book</h5>
+        </div>
+        <div>
+            <h3>
+                <i class="fa-solid fa-coins"></i>
+            </h3>
+            <h4>Affordable</h4>
+            <h5>Approved by the Wesleys</h5>
+        </div>
+        <div>
+            <h3>
+                <i class="fa-solid fa-couch"></i>
+            </h3>
+            <h4>Comfortable</h4>
+            <h5>Private compartments for the passengers</h5>
+        </div>
+        <div>
+            <h3>
+                <i class="fa-solid fa-candy-cane"></i>
+            </h3>
+            <h4>Supplies serving</h4>
+            <h5>Treatments from the trolley</h5>
+        </div>
+    </section>
+    <footer>
 
+    </footer>
+    <script src="https://kit.fontawesome.com/d3ffd28e72.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

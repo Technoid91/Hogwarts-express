@@ -8,15 +8,6 @@
 
 body {
     font-family: "Courier prime", sans-serif;
-    background-color: black;
-}
-
-h1 {
-    font-family: Rye, sans-serif;
-    letter-spacing: 8px;
-    color: #ffcc99;
-    text-align: center;
-    padding-top: 15px;
 }
 
 header {
@@ -25,41 +16,57 @@ header {
 }
 
 #site-logo {
+    width: 120px;
+    height: 120px;
     float: left;
+    margin-left: 15px;
 }
 
 #site-logo img {
-    margin: 10px 0 0 20px;
-    height: 100px;
+    width: 100px;
+    padding: 10px;
+}
+
+#title {
+    height: 120px;
+    padding: 40px;
+    font-family: Rye, sans-serif;
+    letter-spacing: 8px;
+    color: #ffcc99;
+    text-align: center;
 }
 
 #menu {
     float: right;
-    margin-top: 40px;
+    padding-top: 20px;
 }
 
 #menu li {
     font-size: 120%;
     list-style-type: none;
     margin-right: 20px;
-    letter-spacing: 4px;
-    color: #B80000;
     float: right;
 }
 
+#menu a {
+    color: #ffcc99;
+    letter-spacing: 4px;
+    text-decoration: none;
+}
+
 #main {
+    background-color: black;
     background-image: url("../images/train-bg.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    margin-bottom: 15px;
 }
 
 #book-ticket {
-    margin-top: 20px;
-    margin-left: 10px;
+    margin: 20px 0 20px 6%;
     border-radius: 4px;
     width: 20%;
-    height: 400px;
     background-color: #333;
     color: white;
     opacity: .95;
@@ -71,19 +78,18 @@ header {
     text-align: center;
 }
 
-.from-to {
+.input-align {
     margin: 10px;
     padding: 5px;
 }
 
-.from-to input {
+.input-align input {
     width: 70%;
     float: right;
     padding: 4px;
     font-size: 14px;
     border-radius: 2px;
 }
-
 
 .direction {
     width: 90%;
@@ -130,7 +136,7 @@ header {
     height: 20px;
     background-color: white;
     background-image: url(../images/recaptcha-logo.png);
-    background-size: 15%;
+    background-size: 25%;
     background-position: center right;
     background-repeat: no-repeat;
     margin: 5px 15px;
@@ -149,4 +155,29 @@ header {
     border-radius: 4px;
     background-color: #800000;
     color: #ffcc99
+}
+
+#pros {
+    width: 100%;
+    height: 140px;
+    text-align: center;
+    background-color: white;
+}
+
+#pros>div {
+    width: 15%;
+    height: 100px;
+    margin: 10px 2%;
+    padding-top: 10px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+}
+
+#pros h3 {
+    font-size: 200%;
+}
+
+hr {
+    border-top: 2px solid black;
 }

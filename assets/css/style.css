@@ -57,7 +57,7 @@ header {
 
 #main {
     background-color: black;
-    background-image: url("../images/train-bg.jpg");
+    *background-image: url("../images/train-bg.jpg");
     background-size: cover;
     background-position: center;
     margin-bottom: 15px;
@@ -198,7 +198,7 @@ hr {
 
 #info {
     width: 100%;
-    height: 1500px;
+    height: 100%;
 }
 
 #info h2 {
@@ -209,11 +209,12 @@ hr {
 #info p {
     text-align: justify;
     font-size: 130%;
+    height: 50%;
 }
 
 #info div {
     height: 500px;
-    margin: 15px 15%;
+    margin: 20px 15%;
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -222,18 +223,28 @@ hr {
     padding-right: 30%;
     background-image: url("../images/info-platform.png");
     background-position: right;
+
 }
 
 #trip-view {
     padding-left: 30%;
     background-image: url("../images/info-trip.png");
     background-position: left;
+
 }
 
 #best-place {
     padding-right: 30%;
     background-image: url("../images/info-castle.png");
     background-position: right;
+
+}
+
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: #333;
 }
 
 /*icons:

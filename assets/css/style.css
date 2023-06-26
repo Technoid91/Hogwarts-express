@@ -8,6 +8,7 @@
 
 body {
     font-family: "Courier prime", sans-serif;
+    background-color: #f2f2f2;
 }
 
 header {
@@ -59,7 +60,6 @@ header {
     background-image: url("../images/train-bg.jpg");
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
     margin-bottom: 15px;
 }
 
@@ -161,6 +161,7 @@ header {
     width: 450px;
     float: right;
     margin: 200px 6% 30px auto;
+    padding: 15px;
     background-color: #800000;
     opacity: .8;
     font-size: 120%;
@@ -194,3 +195,48 @@ header {
 hr {
     border-top: 1px solid #333;
 }
+
+#info {
+    width: 100%;
+    height: 1500px;
+}
+
+#info h2 {
+    text-align: center;
+    font-size: 230%;
+}
+
+#info p {
+    text-align: justify;
+    font-size: 130%;
+}
+
+#info div {
+    height: 500px;
+    margin: 15px 15%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#platform {
+    padding-right: 30%;
+    background-image: url("../images/info-platform.png");
+    background-position: right;
+}
+
+#trip-view {
+    padding-left: 30%;
+    background-image: url("../images/info-trip.png");
+    background-position: left;
+}
+
+#best-place {
+    padding-right: 30%;
+    background-image: url("../images/info-castle.png");
+    background-position: right;
+}
+
+/*icons:
+hat-wizard
+
+*/

@@ -248,21 +248,19 @@ footer {
 
 #partners {
     width: 94%;
-    margin: 15px 3%;
-    padding: 10px 0;
-    /*background-color: white;
-    border-radius: 20px;*/
+    margin: 15px auto;
+    text-align: center;
 }
 
 #partners div {
     width: 50%;
     height: 100px;
-    background-image: url("../images/partners-bg.png");
-    background-size: contain;
-    background-repeat: no-repeat;
     margin: 0 auto;
-    text-align: center;
     padding-top: 1.5%;
+    text-align: center;
+    background-image: url("../images/partners-bg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
     text-transform: uppercase;
     color: #ffcc99;
     text-shadow: 2px 2px #ff0000;
@@ -270,26 +268,31 @@ footer {
 
 #partners > span {
     width: 12%;
+    height: 250px;
     background-image: url("../images/scroll.png");
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     margin: 0 auto;
     padding: 3% 20px;
     display: inline-block;
-    text-align: center;
+    vertical-align: top;
 
 }
 
 #partners h4 {
+    text-align: center;
+    font-size: 100%;
     text-transform: uppercase;
 }
 
 #partners img {
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
 }
 
 #partners p {
     text-align: justify;
+    font-size: 80%;
 }
 
 /*icons:

@@ -6,6 +6,10 @@
     border: none;
 }
 
+p {
+    text-align: justify;
+}
+
 body {
     font-family: "Courier prime", sans-serif;
     background-color: #f2f2f2;
@@ -230,6 +234,44 @@ footer {
     width: 100%;
     height: 200px;
     background-color: #333;
+}
+
+/* About us */
+
+
+#history {
+    width: 70%;
+    margin: 15px auto;
+    text-align: center;
+    text-indent: 30px;
+}
+
+#partners {
+    width: 94%;
+    margin: 15px 3%;
+    padding: 10px 0;
+    background-color: white;
+    text-align: center;
+    border-radius: 20px;
+}
+
+#partners div {
+    width: 12%;
+    margin: 0 auto;
+    padding: 10px 15px;
+    display: inline-block;
+}
+
+#partners h4 {
+    text-transform: uppercase;
+}
+
+#partners img {
+    width: 100%;
+}
+
+#partners p {
+    text-align: justify;
 }
 
 /*icons:

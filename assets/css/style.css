@@ -13,6 +13,7 @@ p {
 body {
     font-family: "Courier prime", sans-serif;
     background-color: #f2f2f2;
+    background-image: url("../images/brick-white-tp.png");
 }
 
 header {
@@ -236,7 +237,7 @@ footer {
     background-color: #333;
 }
 
-/* About us */
+/* ABOUT US page */
 
 
 #history {
@@ -245,6 +246,13 @@ footer {
     text-align: center;
     text-indent: 30px;
 }
+
+/* Feedback section*/
+#feedback {
+    width: 50%;
+    margin: 15px auto;
+}
+
 
 #partners {
     width: 94%;

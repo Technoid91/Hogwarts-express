@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=La+Belle+Aurore&family=Rye&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Cinzel:wght@600&family=La+Belle+Aurore&family=Rye&display=swap');
 
 * {
     margin: 0;
@@ -68,7 +68,7 @@ header {
     margin-bottom: 15px;
 }
 
-#book-ticket {
+/*#book-ticket {
     margin: 20px 0 20px 6%;
     border-radius: 4px;
     width: 20%;
@@ -76,74 +76,85 @@ header {
     color: white;
     opacity: .95;
     display: inline-block;
+}*/
+
+#booking {
+    width: 40%;
+    height: 17.5em;
+    margin: 20px auto;
+    padding: 1% 20% 1% 8%;
+    background-image: url("../images/ticket-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
 }
 
-#book-ticket h2 {
-    margin-top: 10px;
+#ticket-header {
+    margin: 0 41% 5% 25%;
+    padding-top: 0.6%;
     text-align: center;
+    font-family: Cinzel, sans-serif;
+}
+
+.ticket-data {
+    width: 70%;
+    margin: 0 0 10px 25%;
+}
+
+.ticket-data input {
+    width: 60%;
+    font-family: Cinzel, sans-serif;
+    font-size: 1.5em;
+    background: transparent;
+    border-bottom: 1px solid grey;
+}
+
+.ticket-data select {
+    font-family: Cinzel, sans-serif;
+    font-size: 1.2em;
+    background: transparent;
+    border-bottom: 1px solid grey;
+}
+
+#date {
+    color: red;
 }
 
 .input-align {
-    margin: 10px;
-    padding: 5px;
+    width: 39%;
+    display: inline-block;
+    margin-top: 1.5%;
 }
 
 .input-align input {
     width: 70%;
-    float: right;
-    padding: 4px;
-    font-size: 14px;
-    border-radius: 2px;
+    margin: 0 0 0 0;
+    font-size: 1.2em;
+    font-family: Cinzel, sans-serif;
+    background: transparent;
+    border-bottom: 1px solid grey;
 }
 
-.direction {
-    width: 90%;
-    height: 45px;
-    margin: 10px 5%;
-    padding-top: 10px;
-    background-color: #4d4d4d;
-    border-radius: 4px;
+#ticket-submit {
+    width: 60%;
+    margin: 20px auto;
 }
+#ticket-submit div{
+    width: 30%;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    margin: 0 7%;
 
-#oneway {
-    float: left;
-    margin-left: 25%;
-}
-
-#return {
-    float: right;
-    margin-right: 25%;
-}
-
-#left-label {
-    float: left;
-    margin-left: 15%;
-}
-
-#right-label {
-    float: right;
-    margin-right: 15%;
-}
-
-#date-block {
-    width: 90%;
-    margin: 10px 0 10px 5%;
-}
-
-#date-block input {
-    float: right;
-    width: 70%;
-    font-size: 120%;
 }
 
 #captcha {
-    width: 70%;
-    height: 20px;
     background-color: white;
     background-image: url(../images/recaptcha-logo.png);
     background-size: 25%;
     background-position: center right;
     background-repeat: no-repeat;
+    border: 1px solid black;
     margin: 5px 15px;
     padding: 15px 42px 15px 10px;
     color: black;
@@ -152,11 +163,11 @@ header {
 
 #get-ticket {
     float: right;
-    width: 50%;
-    height: 30px;
+    width: 8em;
+    height: 2em;
     margin: 10px 20px;
-    font-size: 15px;
-    border: 1px solid #ffcc99;
+    font-size: 1.5em;
+    border: 5px solid #ffcc99;
     border-radius: 4px;
     background-color: #800000;
     color: #ffcc99

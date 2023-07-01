@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hogwarts Express train service website">
+    <meta name="keywords" content="hogwarts express, train, book ticket">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Hogwarts Express</title>
+</head>
+
+<body>
+    <header>
+        <span id="site-logo">
+            <a href="index.html">
+                <img src="assets/images/site-logo.png" alt="Site logo. Click to go to the home page">
+            </a>
+        </span>
+        <span id="title">
+            <h1>Hogwarts Express</h1>
+        </span>
+        <span id="menu">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="about.html">About Us</a>
+                    </li>
+                    <li>
+                        <a href="booking.html">Book Ticket</a>
+                    </li>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                </ul>
+            </nav>
+        </span>
+    </header>
+    <section>
+        <form>
+            <div id="booking">
+                <div id="ticket-header">
+                    <h3>Your ticket</h3>
+                </div>
+                <div class="ticket-data">
+                    <label for="pass-type">Type:</label>
+                    <select id="pass-type">
+                        <option>Student</option>
+                        <option>Professor</option>
+                        <option>Visitor</option>
+                    </select>
+                </div>
+                <div class="ticket-data">
+                    <label for="name">Name:</label>
+                    <input id="name" type="text" name="Full name" placeholder="Full Name" required>
+                </div>
+                <div class="ticket-data">
+                    <label for="date">Date:</label>
+                    <input id="date" type="date" name="Departure date" placeholder="20.07.2023" required>
+                </div>
+
+                <div class="input-align">
+                    <label for="from">From</label>
+                    <input id="from" type="text" name="Departure from" placeholder="King's Cross" required>
+                </div>
+                <div class="input-align">
+                    <label>To</label>
+                    <input id="to" type="text" name="Arrive to" placeholder="Hogsmeade" required>
+                </div>
+            </div>
+            <div id="ticket-submit">
+                <div id="captcha">
+                    <input id="age" type="checkbox">
+                    <label for="age">I'm not a muggle</label>
+                </div>
+                <div id="ticket-button">
+                    <input id="get-ticket" type="submit" value="Book Ticket">
+                </div>
+            </div>
+
+        </form>
+    </section>
+    <footer>
+
+    </footer>
+</body>
+
+</html>

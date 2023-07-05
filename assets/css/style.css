@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Cinzel:wght@600&family=La+Belle+Aurore&family=Rye&display=swap');
 
+/* GENERAL RULES*/
 * {
     margin: 0;
     padding: 0;
@@ -8,6 +9,10 @@
 
 p {
     text-align: justify;
+}
+
+hr {
+    border-top: 1px solid #333;
 }
 
 body {
@@ -60,6 +65,32 @@ header {
     text-decoration: none;
 }
 
+footer {
+    width: 100%;
+    background-color: #333;
+}
+
+.footer-row {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 20px;
+    color: white;
+    text-align: center;
+}
+
+.footer-row span {
+    display: inline-block;
+    width: 40%;
+    margin: 0 auto;
+    vertical-align: top;
+}
+
+.footer-row a {
+    color: white;
+}
+
+/* INDEX.HTML */
+
 #main {
     background-color: black;
     background-image: url("../images/train-bg.jpg");
@@ -68,15 +99,71 @@ header {
     margin-bottom: 15px;
 }
 
-/*#book-ticket {
-    margin: 20px 0 20px 6%;
-    border-radius: 4px;
-    width: 20%;
-    background-color: #333;
-    color: white;
-    opacity: .95;
+#moto {
+    width: 450px;
+    float: right;
+    margin: 200px 6% 30px auto;
+    padding: 15px;
+    background-color: #800000;
+    opacity: .8;
+    font-size: 120%;
+}
+
+#moto h3 {
+    font-size: 100%;
+}
+
+#pros {
+    width: 100%;
+    height: 140px;
+    text-align: center;
+    background-color: white;
+}
+
+#pros>div {
+    width: 15%;
+    height: 100px;
+    margin: 10px 2%;
+    padding-top: 10px;
     display: inline-block;
-}*/
+    text-align: center;
+    vertical-align: top;
+}
+
+#pros h3 {
+    font-size: 200%;
+}
+
+#info {
+    width: 100%;
+    height: 100%;
+}
+
+#info h2 {
+    text-align: center;
+    font-size: 230%;
+}
+
+#info p {
+    text-align: justify;
+    font-size: 130%;
+}
+
+#info div {
+    margin: 40px 15%;
+}
+
+#info span {
+    width: 49%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#info img {
+    width: 100%;
+}
+
+/* BOOKING.HTML */
 
 #booking {
     width: 40%;
@@ -170,79 +257,10 @@ header {
     border: 5px solid #ffcc99;
     border-radius: 4px;
     background-color: #800000;
-    color: #ffcc99
-}
-
-#moto {
-    width: 450px;
-    float: right;
-    margin: 200px 6% 30px auto;
-    padding: 15px;
-    background-color: #800000;
-    opacity: .8;
-    font-size: 120%;
-}
-
-#moto h3 {
-    font-size: 100%;
-}
-
-#pros {
-    width: 100%;
-    height: 140px;
-    text-align: center;
-    background-color: white;
-}
-
-#pros>div {
-    width: 15%;
-    height: 100px;
-    margin: 10px 2%;
-    padding-top: 10px;
-    display: inline-block;
-    text-align: center;
-    vertical-align: top;
-}
-
-#pros h3 {
-    font-size: 200%;
-}
-
-hr {
-    border-top: 1px solid #333;
-}
-
-#info {
-    width: 100%;
-    height: 100%;
-}
-
-#info h2 {
-    text-align: center;
-    font-size: 230%;
-}
-
-#info p {
-    text-align: justify;
-    font-size: 130%;
-}
-
-#info div {
-    margin: 40px 15%;
-}
-
-#info span {
-    width: 49%;
-    display: inline-block;
-    vertical-align: middle;
-}
-
-#info img {
-    width: 100%;
+    color: #ffcc99;
 }
 
 /* ABOUT US page */
-
 
 #history {
     width: 70%;
@@ -251,10 +269,87 @@ hr {
     text-indent: 30px;
 }
 
+
+/* Reviews section */
+
+
+#reviews {
+    width: 70%;
+    margin: 10px auto;
+    text-align: center;
+}
+
+#reviews div {
+    margin-bottom: 20px;
+}
+
+#reviews span {
+    width: 49%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#reviews img {
+    width: 50%;
+
+}
+
 /* Feedback section*/
 #feedback {
-    width: 50%;
+    width: 80%;
     margin: 15px auto;
+}
+
+#feedback table, th, td{
+    border-collapse: collapse;
+    background-color: #ffcc99;
+    border: 3px solid #800000;
+    padding: 20px;
+}
+
+.avatar {
+    width: 10%;
+    text-align: center;
+    vertical-align: bottom;
+
+}
+
+.avatar img {
+    width: 100%;
+    border: 3px solid #ffb366;
+
+}
+
+.quoting {
+    background-color: #ffb366;
+    font-size: 85%;
+}
+
+#your-msg {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;  /* поменять тут цвет */
+    background-image: url("../images/msg-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#your-msg span{
+    width: 10%;
+    display: inline-block;
+    margin: 0, 5px;
+}
+#your-msg input{
+    margin: 5px 30px;
+
+}
+
+#your-msg textarea {
+    width: 50%;
+    height: 100px;
+
 }
 
 
@@ -308,31 +403,7 @@ hr {
 
 
 /* footer */
-footer {
-    width: 100%;
-    /*height: 200px;*/
-    background-color: #333;
-}
 
-.footer-row {
-    width: 80%;
-    margin: 0 auto;
-    padding-top: 20px;
-    color: white;
-    /*font-size: 150%;*/
-    text-align: center;
-}
-
-.footer-row span {
-    display: inline-block;
-    width: 40%;
-    margin: 0 auto;
-    vertical-align: top;
-}
-
-.footer-row a {
-    color: white;
-}
 /*icons:
 hat-wizard
 

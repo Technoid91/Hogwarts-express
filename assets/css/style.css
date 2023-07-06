@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Cinzel:wght@600&family=La+Belle+Aurore&family=Rye&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&family=Cinzel:wght@600&family=La+Belle+Aurore&family=Rye&display=swap');
 
 /* GENERAL RULES*/
 * {
@@ -18,7 +18,15 @@ hr {
 body {
     font-family: "Courier prime", sans-serif;
     background-color: #f2f2f2;
-    background-image: url("../images/brick-white-tp.png");
+    /*background-image: url("../images/brick-white-tp.png");*/
+}
+
+h2 {
+    font-family: "Roboto Slab", sans-serif;
+}
+
+h3 {
+    font-size: 150%;
 }
 
 header {
@@ -39,10 +47,10 @@ header {
 }
 
 #title {
-    height: 120px;
     padding: 40px;
-    font-family: Rye, sans-serif;
+    font-family: Cinzel, sans-serif;
     letter-spacing: 8px;
+    text-decoration: underline;
     color: #ffcc99;
     text-align: center;
 }
@@ -63,18 +71,22 @@ header {
     color: #ffcc99;
     letter-spacing: 4px;
     text-decoration: none;
+    text-transform: uppercase;
+    margin: 0 20px;
 }
 
 footer {
     width: 100%;
-    background-color: #333;
+    background-color: #666666;
+    font-family: Arial;
 }
 
 .footer-row {
     width: 80%;
+    height: 3em;
     margin: 0 auto;
-    padding-top: 20px;
-    color: white;
+    padding: 20px 0;
+    color: #f2f2f2;;
     text-align: center;
 }
 
@@ -86,14 +98,16 @@ footer {
 }
 
 .footer-row a {
-    color: white;
+    color: #f2f2f2;
+    font-size: 250%;
 }
 
 /* INDEX.HTML */
 
 #main {
+    height: 400px;
     background-color: black;
-    background-image: url("../images/train-bg.jpg");
+    background-image: url("../images/train-img.jpg");
     background-size: cover;
     background-position: center;
     margin-bottom: 15px;
@@ -154,9 +168,10 @@ footer {
 }
 
 #info span {
-    width: 49%;
+    width: 45%;
     display: inline-block;
     vertical-align: middle;
+    margin: 0 15px;
 }
 
 #info img {
@@ -165,6 +180,18 @@ footer {
 
 /* BOOKING.HTML */
 
+#ticket-background {
+    background:
+    url("../images/train-inside.png")
+    top center / cover
+    no-repeat
+    fixed;
+}
+
+#ticket-form {
+    margin-top: 10%;
+}
+
 #booking {
     width: 40%;
     height: 17.5em;
@@ -172,8 +199,9 @@ footer {
     padding: 1% 20% 1% 8%;
     background-image: url("../images/ticket-bg.png");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     color: black;
+    opacity: .85;
 }
 
 #ticket-header {
@@ -189,7 +217,7 @@ footer {
 }
 
 .ticket-data input {
-    width: 60%;
+    width: 70%;
     font-family: Cinzel, sans-serif;
     font-size: 1.5em;
     background: transparent;
@@ -204,16 +232,22 @@ footer {
 }
 
 #date {
+    width: 50%;
     color: red;
 }
 
-.input-align {
+.station {
     width: 39%;
     display: inline-block;
     margin-top: 1.5%;
+    margin-left: 10px;
 }
 
-.input-align input {
+.station label {
+    margin-right: 5px;
+}
+
+.station input {
     width: 70%;
     margin: 0 0 0 0;
     font-size: 1.2em;
@@ -232,7 +266,6 @@ footer {
     vertical-align: middle;
     text-align: center;
     margin: 0 7%;
-
 }
 
 #captcha {
@@ -260,6 +293,26 @@ footer {
     color: #ffcc99;
 }
 
+#booking-info {
+    width: 90%;
+    margin: 10px auto;
+}
+
+#booking-info div {
+    width: 70%;
+    margin: 0 auto;
+}
+
+#booking-info summary {
+    opacity: 1;
+}
+
+#booking-info details {
+    background-color: white;
+    opacity: .6;
+    font-size: 150%;
+}
+
 /* ABOUT US page */
 
 #history {
@@ -269,9 +322,7 @@ footer {
     text-indent: 30px;
 }
 
-
 /* Reviews section */
-
 
 #reviews {
     width: 70%;
@@ -281,17 +332,25 @@ footer {
 
 #reviews div {
     margin-bottom: 20px;
+    padding: 15px 0;
+    background-color: white;
+    opacity: .8;
 }
 
 #reviews span {
-    width: 49%;
+    width: 45%;
     display: inline-block;
     vertical-align: middle;
 }
 
 #reviews img {
     width: 50%;
+}
 
+.review-text {
+    /*background-color: white;*/
+    padding: 10px;
+    opacity: 0.8;
 }
 
 /* Feedback section*/
@@ -303,7 +362,7 @@ footer {
 #feedback table, th, td{
     border-collapse: collapse;
     background-color: #ffcc99;
-    border: 3px solid #800000;
+    border: 3px solid #ffb366;
     padding: 20px;
 }
 
@@ -311,13 +370,11 @@ footer {
     width: 10%;
     text-align: center;
     vertical-align: bottom;
-
 }
 
 .avatar img {
     width: 100%;
-    border: 3px solid #ffb366;
-
+    border: 3px solid #800000;
 }
 
 .quoting {
@@ -329,11 +386,11 @@ footer {
     width: 80%;
     margin: 20px auto;
     padding: 20px;
-    background-color: white;  /* поменять тут цвет */
-    background-image: url("../images/msg-bg.png");
+    background-color: #ffcc99;
+    border: 3px solid #ffb366;
+    /*background-image: url("../images/msg-bg.png");*/
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 
 #your-msg span{
@@ -341,15 +398,14 @@ footer {
     display: inline-block;
     margin: 0, 5px;
 }
+
 #your-msg input{
     margin: 5px 30px;
-
 }
 
 #your-msg textarea {
     width: 50%;
     height: 100px;
-
 }
 
 
@@ -364,31 +420,30 @@ footer {
     height: 100px;
     margin: 0 auto;
     padding-top: 1.5%;
-    text-align: center;
     background-image: url("../images/partners-bg.png");
     background-repeat: no-repeat;
     background-size: contain;
-    text-transform: uppercase;
     color: #ffcc99;
+    text-align: center;
     text-shadow: 2px 2px #ff0000;
+    text-transform: uppercase;
 }
 
 #partners > span {
     width: 12%;
     height: 250px;
-    background-image: url("../images/scroll.png");
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
     margin: 0 auto;
     padding: 3% 20px;
     display: inline-block;
     vertical-align: top;
-
+    background-image: url("../images/scroll.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
 
 #partners h4 {
     text-align: center;
-    font-size: 100%;
+    font-size: 90%;
     text-transform: uppercase;
 }
 

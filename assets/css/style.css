@@ -224,11 +224,9 @@ footer {
 }
 
 @media only screen and (max-width: 390px) {
-
     #pros {
         height: 200px;
     }
-
     #pros>div {
         width: 25%;
         height: 50px;
@@ -236,11 +234,30 @@ footer {
         padding-top: 10px;
         font-size: 80%;
     }
-
     #pros h3 {
         font-size: 150%;
     }
-
+    #info h2 {
+        font-size: 150%;
+    }
+    #info p {
+        font-size: 100%;
+    }
+    #info div {
+        margin: 0;
+    }
+    #info span {
+        width: 95%;
+        margin: 0 15px;
+    }
+    .info-img {
+        position: relative;
+        top: 210px;
+    }
+    .info-text {
+        position: relative;
+        bottom: 510px;
+    }
 }
 
 /* BOOKING.HTML */

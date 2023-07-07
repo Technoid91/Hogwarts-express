@@ -430,7 +430,6 @@ footer {
 }
 
 .review-text {
-    /*background-color: white;*/
     padding: 10px;
     opacity: 0.8;
 }
@@ -451,7 +450,7 @@ footer {
 .avatar {
     width: 10%;
     text-align: center;
-    vertical-align: bottom;
+    vertical-align: top;
 }
 
 .avatar img {
@@ -489,7 +488,6 @@ footer {
     width: 50%;
     height: 100px;
 }
-
 
 #partners {
     width: 94%;
@@ -538,11 +536,44 @@ footer {
     font-size: 80%;
 }
 
-/* RESPONSIVE */
+@media only screen and (max-width: 390px) {
+    #history {
+        width: 90%;
+        margin: 5px auto;
+        text-indent: 10px;
+    }
+    #reviews div {
+        margin-bottom: 10px;
+        padding: 15px 0;
+    }
+    #reviews span {
+        width: 80%;
+    }
+    #your-msg textarea {
+        width: 100%;
+    }
+    #partners {
+        width: 90%;
+        margin: 5px auto;
+    }
+    #partners div {
+        width: 100%;
+        height: 50px;
+        padding-top: 3%;
+        font-size: 50%;
+    }
+    #partners > span {
+        width: 40%;
+        height: 200px;
+        padding: 8% 20px;
+        margin-bottom: 10px;
+    }
 
+    #partners h4 {
+        font-size: 70%;
+    }
+}
 
-
-/* footer */
 
 /*icons:
 hat-wizard

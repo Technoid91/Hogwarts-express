@@ -383,6 +383,9 @@ footer {
 #booking-info div {
     width: 70%;
     margin: 0 auto;
+    padding: 30px;
+    background-color: white;
+    opacity: .6;
 }
 
 #booking-info summary {
@@ -390,9 +393,90 @@ footer {
 }
 
 #booking-info details {
-    background-color: white;
-    opacity: .6;
     font-size: 150%;
+}
+
+@media only screen and (max-width: 390px) {
+    #booking {
+        width: 90%;
+        height: 15em;
+        margin: 20px auto;
+        padding: 0;
+        background-image: none;
+        background-color: black;
+        opacity: .7;
+    }
+    #ticket-header {
+        margin: 10px auto;
+        padding-top: 2%;
+        color: white;
+    }
+    .ticket-data {
+        width: 90%;
+        margin: 10px;
+    }
+    .ticket-data label {
+        color: white;
+        font-size: 1.2em;
+        margin-left: 20px;
+    }
+    .ticket-data input {
+        width: 60%;
+        font-size: 1em;
+        color: white;
+        border-bottom: 1px solid white;
+        float: right;
+    }
+    .ticket-data select {
+        font-size: 1em;
+        width: 60%;
+        color: white;
+        border-bottom: 1px solid white;
+        float: right;
+    }
+    #date {
+        width: 60%;
+        color: red;
+    }
+    .station {
+        width: 90%;
+        height: 1.2em;
+        display: block;
+        color: white;
+        margin-bottom: 5px;
+    }
+    .station label {
+        font-size: 120%;
+        margin: 0 20px;
+        float: left;
+    }
+    .station input {
+        width: 60%;
+        color: white;
+        border-bottom: 1px solid white;
+        float: right;
+    }
+    #ticket-submit {
+        width: 90%;
+    }
+    #ticket-submit div{
+        width: 60%;
+        display: block;
+        margin: 10px auto;
+    }
+    #captcha {
+        background-size: 25%;
+        margin: 5px 15px;
+        padding: 15px 42px 15px 10px;
+    }
+
+    #get-ticket {
+        float: none;
+        margin: 10px auto;
+    }
+    #booking-info div {
+        width: 90%;
+    }
 }
 
 /* ABOUT US page */
@@ -416,7 +500,7 @@ footer {
     margin-bottom: 20px;
     padding: 15px 0;
     background-color: white;
-    opacity: .8;
+    opacity: .9;
 }
 
 #reviews span {
@@ -431,7 +515,7 @@ footer {
 
 .review-text {
     padding: 10px;
-    opacity: 0.8;
+    /*opacity: 0.8;*/
 }
 
 /* Feedback section*/

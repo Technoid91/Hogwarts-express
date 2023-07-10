@@ -682,8 +682,9 @@ footer {
     #reviews img {
         width: 70%;
     }
-    #your-msg textarea {
-        width: 100%;
+    #your-msg {
+        width: 85%;
+        font-size: 100%;
     }
     #feedback {
         width: 95%;
@@ -700,9 +701,10 @@ footer {
     }
     #partners > span {
         width: 30%;
-        height: 170px;
+        height: 150px;
         padding: 8% 20px;
         margin-bottom: 10px;
+        font-size: 80%;
     }
 
     #partners h4 {

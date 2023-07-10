@@ -38,14 +38,14 @@
         </span>
     </header>
     <section id="ticket-form">
-        <form>
+        <form method="POST" action="https://formdump.codeinstitute.net/">
             <div id="booking">
                 <div id="ticket-header">
                     <h3>Your ticket</h3>
                 </div>
                 <div class="ticket-data">
                     <label for="pass-type">Type:</label>
-                    <select id="pass-type">
+                    <select id="pass-type" name="ticket_type">
                         <option>Student</option>
                         <option>Professor</option>
                         <option>Visitor</option>
@@ -53,20 +53,20 @@
                 </div>
                 <div class="ticket-data">
                     <label for="name">Name:</label>
-                    <input id="name" type="text" name="Full name" placeholder="Full Name" required>
+                    <input id="name" type="text" name="full_name" placeholder="Full Name" required>
                 </div>
                 <div class="ticket-data">
                     <label for="date">Date:</label>
-                    <input id="date" type="date" name="Departure date" placeholder="20.07.2023" required>
+                    <input id="date" type="date" name="departure_date" placeholder="20.07.2023" required>
                 </div>
 
                 <div class="station">
                     <label for="from">From</label>
-                    <input id="from" type="text" name="Departure from" placeholder="King's Cross" required>
+                    <input id="from" type="text" name="departure_from" placeholder="King's Cross" required>
                 </div>
                 <div class="station">
                     <label>To</label>
-                    <input id="to" type="text" name="Arrive to" placeholder="Hogsmeade" required>
+                    <input id="to" type="text" name="arrive_to" placeholder="Hogsmeade" required>
                 </div>
             </div>
             <div id="ticket-submit">
@@ -74,7 +74,7 @@
                     <input id="age" type="checkbox">
                     <label for="age">I'm not a muggle</label>
                 </div>
-                <div id="ticket-button">
+                <div>
                     <input id="get-ticket" type="submit" value="Book Ticket">
                 </div>
             </div>

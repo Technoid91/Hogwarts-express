@@ -572,28 +572,47 @@ footer {
 }
 
 #your-msg {
-    width: 80%;
+    width: 50%;
     margin: 20px auto;
-    padding: 20px;
+    padding: 20px 20px 45px;
     background-color: #ffcc99;
     border: 3px solid #ffb366;
     background-repeat: no-repeat;
     background-size: cover;
+    font-size: 1.2em;
 }
 
 #your-msg span{
     width: 10%;
     display: inline-block;
-    margin: 0, 5px;
+    line-height: 1.8em;
 }
 
 #your-msg input{
-    margin: 5px 30px;
+    margin: 0 30px;
+    font-size: 1em;
 }
 
 #your-msg textarea {
-    width: 50%;
+    width: 100%;
     height: 100px;
+    font-size: 1.2em;
+}
+
+#send-msg input{
+    float: right;
+    margin: 5px 0;
+}
+
+#send-button {
+    width: 5em;
+    height: 2em;
+    margin: 0;
+    font-size: 1.2em;
+    border: 5px solid #ffb366;
+    border-radius: 4px;
+    background-color: #800000;
+    color: #ffcc99;
 }
 
 #partners {

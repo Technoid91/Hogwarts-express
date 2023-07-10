@@ -133,6 +133,7 @@ footer {
         padding: 0;
         margin-top: 10px;
     }
+
     #menu {
         float: right;
         padding-top: 20px;
@@ -238,11 +239,11 @@ footer {
 @media only screen and (max-width: 390px) {
     #moto {
         width: 70%;
-        float: none;
-        margin: 70% auto 0;
+        margin: 90% auto 0;
         padding: 5px;
         text-align: center;
         font-size: 80%;
+        color: white;
     }
     #pros {
         height: 200px;

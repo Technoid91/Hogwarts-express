@@ -74,6 +74,14 @@ header {
     margin: 0 20px;
 }
 
+#menu a:hover {
+    border-bottom: 2px solid #ffcc99;
+}
+
+.active-nav {
+    border-bottom: 2px solid #ffcc99;
+}
+
 footer {
     width: 100%;
     background-color: #666666;
@@ -99,6 +107,10 @@ footer {
 .footer-row a {
     color: #f2f2f2;
     font-size: 250%;
+}
+
+.footer-row a:hover {
+    color: #800000;
 }
 
 @media only screen and (max-width: 390px) {
@@ -162,6 +174,7 @@ footer {
     background-position: center;
     margin-bottom: 15px;
 }
+
 
 #moto {
     width: 450px;

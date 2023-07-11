@@ -32,26 +32,31 @@ header {
     height: 120px;
     background-color: #800000;
 }
+header>div {
+    display:inline-block;
 
+}
 #site-logo {
     width: 120px;
-    height: 120px;
     float: left;
-    margin-left: 15px;
+    margin-left: 10px;
 }
 
 #site-logo img {
     width: 100px;
-    padding: 10px;
+    padding: 8px;
 }
 
 #title {
-    padding: 40px;
+    width: 80%;
+    height: 3em;
+    padding-top: 25px;
     font-family: Cinzel, sans-serif;
-    letter-spacing: 8px;
+    letter-spacing: 4px;
     text-decoration: underline;
     color: #ffcc99;
     text-align: center;
+    vertical-align: bottom;
 }
 
 #menu {
@@ -60,7 +65,6 @@ header {
 }
 
 #menu li {
-    font-size: 120%;
     list-style-type: none;
     margin-right: 20px;
     float: right;
@@ -68,10 +72,10 @@ header {
 
 #menu a {
     color: #ffcc99;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     text-decoration: none;
     text-transform: uppercase;
-    margin: 0 20px;
+    margin: 0 10px;
 }
 
 #menu a:hover {
@@ -168,22 +172,25 @@ footer {
 /* INDEX.HTML */
 
 #main {
+    width: 100%;
     height: 400px;
     background-color: #333;
     background-image: url("../images/train-img.jpg");
     background-size: cover;
     background-position: center;
     margin-bottom: 15px;
+    overflow: hidden;
 }
 
 
 #moto {
-    float: right;
-    margin: 25% 1% 0 auto;
+    width: 20em;
+    margin: 15em 1% 0 auto;
     padding: 15px;
     background-color: #800000;
     opacity: .8;
     font-size: 120%;
+
 }
 
 #moto h3 {

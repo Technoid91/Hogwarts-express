@@ -32,10 +32,12 @@ header {
     height: 120px;
     background-color: #800000;
 }
+
 header>div {
     display:inline-block;
 
 }
+
 #site-logo {
     width: 120px;
     float: left;
@@ -125,15 +127,16 @@ footer {
         width: 50px;
         height: 50px;
         float: left;
-        margin-left: 5px;
+        margin-left: 0;
     }
     #site-logo img {
         width: 50px;
-        padding: 10px 5px;
+        padding: 10px;
     }
     #title {
         letter-spacing: 4px;
-        font-size: 70%;
+        font-size: 50%;
+        height: 2em;
         padding: 0;
         margin-top: 10px;
     }
@@ -155,7 +158,7 @@ footer {
         letter-spacing: 1px;
         text-decoration: none;
         text-transform: uppercase;
-        margin: 0 10px;
+        margin: 0 5px;
     }
     .footer-row {
         width: 90%;
@@ -280,15 +283,21 @@ footer {
     #pros h3 {
         font-size: 150%;
     }
+    #info {
+        width: 90%;
+    }
     #info h2 {
-        font-size: 150%;
+        font-size: 130%;
     }
     #info p {
         font-size: 100%;
     }
+    .info-row {
+        margin: 5px auto;
+    }
     #info div {
-        width: 90%;
-        margin: 0 auto;
+        width: 100%;
+        margin: 5px auto;
     }
     .info-left {
         position: static;

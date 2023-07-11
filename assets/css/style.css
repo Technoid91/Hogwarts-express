@@ -538,25 +538,26 @@ footer {
 }
 
 #reviews div {
+    width: 40%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#reviews .reviews-row {
+    width: 100%;
     margin-bottom: 20px;
     padding: 15px 0;
     background-color: white;
     opacity: .9;
 }
 
-#reviews span {
-    width: 45%;
-    display: inline-block;
-    vertical-align: middle;
-}
-
 #reviews img {
-    width: 50%;
+    width: 60%;
 }
 
-.review-text {
+#reviews .review-text {
+    width: 50%;
     padding: 10px;
-    /*opacity: 0.8;*/
 }
 
 /* Feedback section*/
@@ -638,7 +639,7 @@ footer {
     text-align: center;
 }
 
-#partners div {
+.partners-header {
     width: 50%;
     height: 100px;
     margin: 0 auto;
@@ -652,7 +653,7 @@ footer {
     text-transform: uppercase;
 }
 
-#partners > span {
+.partner {
     width: 12%;
     height: 250px;
     margin: 0 auto;

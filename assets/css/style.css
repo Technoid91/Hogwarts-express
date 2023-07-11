@@ -101,7 +101,7 @@ footer {
     text-align: center;
 }
 
-.footer-row span {
+.footer-row div {
     display: inline-block;
     width: 40%;
     margin: 0 auto;
@@ -160,7 +160,7 @@ footer {
     .footer-row {
         width: 90%;
     }
-    .footer-row span {
+    .footer-row div {
         width: 48%;
         font-size: 75%;
     }
@@ -218,25 +218,40 @@ footer {
     font-size: 200%;
 }
 
-#info h2 {
-    text-align: center;
-    font-size: 230%;
+#info {
+    width: 60%;
+    margin: 15px auto;
 }
 
-#info p {
-    text-align: justify;
-    font-size: 130%;
+.info-row {
+    width: 100%;
+    margin: 10px auto;
 }
 
 #info div {
-    margin: 40px 15%;
-}
-
-#info span {
-    width: 45%;
+    width: 40%;
     display: inline-block;
     vertical-align: middle;
-    margin: 0 15px;
+    margin: 15px;
+}
+
+.info-left{
+    position: relative;
+    right: 50%;
+}
+
+.info-right{
+    position: relative;
+    left: 50%;
+}
+
+#info h2 {
+    text-align: center;
+    font-size: 2em;
+}
+
+#info p {
+    font-size: 1em;
 }
 
 #info img {
@@ -275,17 +290,11 @@ footer {
         width: 90%;
         margin: 0 auto;
     }
-    #info span {
-        width: 100%;
-        margin: 15px auto;
+    .info-left {
+        position: static;
     }
-    .info-img {
-        position: relative;
-        top: 260px;
-    }
-    .info-text {
-        position: relative;
-        bottom: 520px;
+    .info-right {
+        position: static;
     }
 }
 

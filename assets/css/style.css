@@ -119,7 +119,7 @@ footer {
     color: #800000;
 }
 
-@media only screen and (max-width: 390px) {
+@media screen and (max-width: 390px) {
     header {
         height: 70px;
     }
@@ -184,7 +184,6 @@ footer {
     margin-bottom: 15px;
     overflow: hidden;
 }
-
 
 #moto {
     width: 20em;
@@ -261,7 +260,7 @@ footer {
     width: 100%;
 }
 
-@media only screen and (max-width: 390px) {
+@media screen and (max-width: 390px) {
     #moto {
         width: 70%;
         margin: 340px auto 0;
@@ -322,19 +321,20 @@ footer {
 }
 
 #booking {
-    width: 40%;
-    height: 17.5em;
+    width: 50%;
+    /*height: 17.5em;*/
     margin: 20px auto;
-    padding: 1% 20% 1% 8%;
+    padding: 0.7% 20% 1% 8%;
     background-image: url("../images/ticket-bg.png");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     color: black;
     opacity: .85;
+    box-sizing: border-box;
 }
 
 #ticket-header {
-    margin: 0 41% 5% 25%;
+    margin: 0 20% 5% 10%;
     padding-top: 0.6%;
     text-align: center;
     font-family: Cinzel, sans-serif;
@@ -348,14 +348,14 @@ footer {
 .ticket-data input {
     width: 70%;
     font-family: Cinzel, sans-serif;
-    font-size: 1.5em;
+    font-size: 1.8em;
     background: transparent;
     border-bottom: 1px solid grey;
 }
 
 .ticket-data select {
     font-family: Cinzel, sans-serif;
-    font-size: 1.2em;
+    font-size: 1.5em;
     background: transparent;
     border-bottom: 1px solid grey;
 }
@@ -366,10 +366,10 @@ footer {
 }
 
 .station {
-    width: 39%;
+    width: 49%;
     display: inline-block;
-    margin-top: 1.5%;
-    margin-left: 10px;
+    margin: 5% 0 9.5%;
+
 }
 
 .station label {
@@ -377,16 +377,16 @@ footer {
 }
 
 .station input {
-    width: 70%;
+    width: 75%;
     margin: 0 0 0 0;
-    font-size: 1.2em;
+    font-size: 1.5em;
     font-family: Cinzel, sans-serif;
     background: transparent;
     border-bottom: 1px solid grey;
 }
 
 #ticket-submit {
-    width: 60%;
+    width: 40%;
     margin: 20px auto;
 }
 #ticket-submit div{
@@ -443,7 +443,68 @@ footer {
     font-size: 150%;
 }
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 1200px) {
+
+    #ticket-header {
+        margin: 0 0 1% 25%;
+        padding-top: 1%;
+        font-size: 70%;
+    }
+
+    .ticket-data {
+        width: 70%;
+        margin: 0 0 10px 18%;
+    }
+
+    .ticket-data input {
+        width: 70%;
+        font-family: Cinzel, sans-serif;
+        font-size: 1.2em;
+        background: transparent;
+        border-bottom: 1px solid grey;
+    }
+
+    .ticket-data select {
+        font-family: Cinzel, sans-serif;
+        font-size: 1.2em;
+        background: transparent;
+        border-bottom: 1px solid grey;
+    }
+
+    #date {
+        width: 50%;
+        color: red;
+    }
+
+    .station {
+        width: 39%;
+        display: inline-block;
+        margin-top: 1.5%;
+        margin-left: 0;
+    }
+
+    .station label {
+        margin-right: 5px;
+    }
+
+    .station input {
+        width: 70%;
+        margin: 0 0 0 0;
+        font-size: 1.2em;
+        font-family: Cinzel, sans-serif;
+        background: transparent;
+        border-bottom: 1px solid grey;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+    #ticket-header {
+            padding-top: 1%;
+        }
+}
+
+@media screen and (max-width: 390px) {
     #booking {
         width: 90%;
         height: 15em;
@@ -689,7 +750,7 @@ footer {
     font-size: 80%;
 }
 
-@media only screen and (max-width: 390px) {
+@media screen and (max-width: 390px) {
     #history {
         width: 90%;
         margin: 5px auto;

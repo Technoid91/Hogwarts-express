@@ -143,7 +143,6 @@ footer {
     background-color: #800000;
     opacity: .8;
     font-size: 120%;
-
 }
 
 #moto h3 {
@@ -518,15 +517,9 @@ footer {
 
 /* RESPONSIVE ELEMENTS*/
 
-@media screen and (max-width: 1200px) {
+/*@media screen and (max-width: 1200px) {
 
-}
-
-
-
-
-
-
+}*/
 
 @media screen and (max-width: 950px) {
     /*header and footer*/
@@ -714,13 +707,18 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
+
+    #ticket-form {
+        margin: 20% 0;
+    }
     #booking {
-        width: 60%;
-        height: 30vw;
+        width: 80%;
+        height: auto;
         margin: 0 auto;
-        padding: 5px 20px;
+        padding: 5px 20px 30px;
         background-image: none;
-        background-color: rgba(0, 0, 0, .8);
+        background-color: rgba(0, 0, 0, .6);
+        opacity: 1;
         color: white;
         font-size: 1vw;
     }
@@ -764,11 +762,18 @@ footer {
         color: white;
     }
     #ticket-submit {
-        background-color: rgba(0, 0, 0, .8);
+        width: 80%;
+        background-color: rgba(0, 0, 0, .6);
         margin: 0 auto;
         padding-bottom: 10px;
     }
-
+    #captcha {
+        font-size: 80%;
+    }
+    #booking-info {
+        width: 90%;
+        margin: 15% auto;
+    }
 }
 
 /*icons:

@@ -583,11 +583,6 @@ footer {
     }
 }
 
-
-
-
-
-
 @media screen and (max-width: 800px) {
     /*header and footer*/
     header {
@@ -608,10 +603,6 @@ footer {
         padding: 0;
         margin-top: 10px;
     }
-    /*#menu {
-        float: right;
-        padding-top: 20px;
-    }*/
     #menu li {
         font-size: 60%;
     }
@@ -718,6 +709,64 @@ footer {
     }
     #partners h4 {
         font-size: 70%;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    #booking {
+        width: 60%;
+        height: 30vw;
+        margin: 0 auto;
+        padding: 5px 20px;
+        background-image: none;
+        background-color: rgba(0, 0, 0, .8);
+        color: white;
+        font-size: 1vw;
+    }
+    #ticket-header {
+        font-size: 200%;
+    }
+
+    .ticket-data {
+        width: 70%;
+        margin-left: 5px;
+        margin-bottom: 5px;
+        font-size: 2.5vw;
+    }
+
+    .ticket-data input {
+        width: 70%;
+        color: white;
+        border-bottom: 1px solid white;
+        font-size: 2.5vw;
+        float: right;
+    }
+
+    .ticket-data select {
+        font-size: 1.8vw;
+        border-bottom: 1px solid white;
+        float: right;
+        color: white;
+    }
+
+    .station {
+        width: 70%;
+        margin: 5px;
+        font-size: 2.5vw;
+    }
+    .station input {
+        width: 75%;
+        margin: 0;
+        font-size: 2.5vw;
+        border-bottom: 1px solid white;
+        float: right;
+        color: white;
+    }
+    #ticket-submit {
+        background-color: rgba(0, 0, 0, .8);
+        margin: 0 auto;
+        padding-bottom: 10px;
     }
 
 }

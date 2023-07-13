@@ -31,11 +31,11 @@ h3 {
 header {
     height: 120px;
     background-color: #800000;
+    position: relative;
 }
 
 header>div {
-    display:inline-block;
-
+    display: inline-block;
 }
 
 #site-logo {
@@ -52,8 +52,9 @@ header>div {
 #title {
     width: 80%;
     height: 3em;
-    padding-top: 25px;
+    padding-top: 1.5vw;
     font-family: Cinzel, sans-serif;
+    font-size: 1.5vw;
     letter-spacing: 4px;
     text-decoration: underline;
     color: #ffcc99;
@@ -62,8 +63,11 @@ header>div {
 }
 
 #menu {
-    float: right;
-    padding-top: 20px;
+    /*float: right;*/
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    /*padding-top: 15px;*/
 }
 
 #menu li {
@@ -117,59 +121,6 @@ footer {
 
 .footer-row a:hover {
     color: #800000;
-}
-
-@media screen and (max-width: 390px) {
-    header {
-        height: 70px;
-    }
-    #site-logo {
-        width: 50px;
-        height: 50px;
-        float: left;
-        margin-left: 0;
-    }
-    #site-logo img {
-        width: 50px;
-        padding: 10px;
-    }
-    #title {
-        letter-spacing: 4px;
-        font-size: 50%;
-        height: 2em;
-        padding: 0;
-        margin-top: 10px;
-    }
-
-    #menu {
-        float: right;
-        padding-top: 20px;
-    }
-
-    #menu li {
-        font-size: 60%;
-        list-style-type: none;
-        margin-right: 5px;
-        float: right;
-    }
-
-    #menu a {
-        color: #ffcc99;
-        letter-spacing: 1px;
-        text-decoration: none;
-        text-transform: uppercase;
-        margin: 0 5px;
-    }
-    .footer-row {
-        width: 90%;
-    }
-    .footer-row div {
-        width: 48%;
-        font-size: 75%;
-    }
-    .footer-row a {
-        font-size: 200%;
-    }
 }
 
 /* INDEX.HTML */
@@ -260,51 +211,6 @@ footer {
     width: 100%;
 }
 
-@media screen and (max-width: 390px) {
-    #moto {
-        width: 70%;
-        margin: 340px auto 0;
-        padding: 5px;
-        text-align: center;
-        font-size: 80%;
-        color: white;
-    }
-    #pros {
-        height: 200px;
-    }
-    #pros>div {
-        width: 25%;
-        height: 50px;
-        margin: 10px 2%;
-        padding-top: 10px;
-        font-size: 80%;
-    }
-    #pros h3 {
-        font-size: 150%;
-    }
-    #info {
-        width: 90%;
-    }
-    #info h2 {
-        font-size: 130%;
-    }
-    #info p {
-        font-size: 100%;
-    }
-    .info-row {
-        margin: 5px auto;
-    }
-    #info div {
-        width: 100%;
-        margin: 5px auto;
-    }
-    .info-left {
-        position: static;
-    }
-    .info-right {
-        position: static;
-    }
-}
 
 /* BOOKING.HTML */
 
@@ -448,133 +354,6 @@ footer {
 #booking-info details {
     font-size: 150%;
 }
-
-/*@media only screen and (max-width: 1600px) {
-    #booking {
-    width:}
-}
-
-@media only screen and (max-width: 1200px) {
-    #booking {
-        width: 70%;
-    }
-    #ticket-header {
-        margin: 0 30% 5% 25%;
-        padding-top: 1%;
-        font-size: 70%;
-    }
-    .ticket-data input {
-        font-size: 1.2em;
-    }
-    .ticket-data select {
-        font-size: 1.2em;
-    }
-    .station {
-        width: 39%;
-        margin-top: 1.5%;
-        margin-left: 25px;
-    }
-    .station input {
-        width: 70%;
-        font-size: 1.2em;
-    }
-    #ticket-submit {
-        width: 60%;
-    }
-
-}
-
-@media screen and (max-width: 900px) {
-    #ticket-header {
-            padding-top: 1%;
-        }
-}
-
-@media screen and (max-width: 390px) {
-    #booking {
-        width: 90%;
-        height: 15em;
-        margin: 20px auto;
-        padding: 0;
-        background-image: none;
-        background-color: black;
-        opacity: .7;
-    }
-    #ticket-header {
-        margin: 10px auto;
-        padding-top: 2%;
-        color: white;
-    }
-    .ticket-data {
-        width: 90%;
-        margin: 10px;
-    }
-    .ticket-data label {
-        color: white;
-        font-size: 1.2em;
-        margin-left: 20px;
-    }
-    .ticket-data input {
-        width: 60%;
-        font-size: 1em;
-        color: white;
-        border-bottom: 1px solid white;
-        float: right;
-    }
-    .ticket-data select {
-        font-size: 1em;
-        width: 60%;
-        color: white;
-        border-bottom: 1px solid white;
-        float: right;
-    }
-    #date {
-        width: 60%;
-        color: red;
-    }
-    .station {
-        width: 90%;
-        height: 1.2em;
-        display: block;
-        color: white;
-        margin-bottom: 5px;
-    }
-    .station label {
-        font-size: 120%;
-        margin: 0 20px;
-        float: left;
-    }
-    .station input {
-        width: 60%;
-        color: white;
-        border-bottom: 1px solid white;
-        float: right;
-    }
-    #ticket-submit {
-        width: 90%;
-    }
-    #ticket-submit div{
-        width: 60%;
-        display: block;
-        margin: 10px auto;
-    }
-    #captcha {
-        background-size: 25%;
-        margin: 5px 15px;
-        padding: 15px 42px 15px 10px;
-    }
-
-    #get-ticket {
-        float: none;
-        margin: 10px auto;
-    }
-    #booking-info div {
-        width: 90%;
-        padding: 10px;
-        margin: 0 auto;
-        font-size: 70%;
-    }
-}*/
 
 /* ABOUT US page */
 
@@ -736,7 +515,164 @@ footer {
     font-size: 80%;
 }
 
-@media screen and (max-width: 390px) {
+
+/* RESPONSIVE ELEMENTS*/
+
+@media screen and (max-width: 1200px) {
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 950px) {
+    /*header and footer*/
+    header {
+        height: 100px;
+    }
+     #site-logo {
+        height: 100px;
+    }
+    #site-logo img {
+        width: 80px;
+        padding: 10px;
+    }
+    #title {
+        margin-top: 10px;
+    }
+/*    #menu {
+        padding-top: 8px;
+    }*/
+    #menu li {
+        font-size: 80%;
+    }
+    #info {
+        width: 90%;
+    }
+    .info-left{
+    position: relative;
+    right: 45%;
+    }
+    .info-right{
+        position: relative;
+        left: 45%;
+    }
+    #booking-info {
+        font-size: 70%;
+    }
+    #your-msg {
+        font-size: 100%;
+    }
+
+    .partners-header {
+        width: 70%;
+    }
+
+    .partner {
+        width: 15%;
+        height: 200px;
+        padding: 3% 30px;
+        margin: 0 3% 15px;
+    }
+    #partners img {
+        width: 70%;
+        margin: 0 auto;
+    }
+}
+
+
+
+
+
+
+@media screen and (max-width: 800px) {
+    /*header and footer*/
+    header {
+        height: 70px;
+    }
+    #site-logo {
+        width: 50px;
+        height: 50px;
+    }
+    #site-logo img {
+        width: 50px;
+        padding: 10px;
+    }
+    #title {
+        letter-spacing: 4px;
+        font-size: 50%;
+        height: 2em;
+        padding: 0;
+        margin-top: 10px;
+    }
+    /*#menu {
+        float: right;
+        padding-top: 20px;
+    }*/
+    #menu li {
+        font-size: 60%;
+    }
+    #menu a {
+        letter-spacing: 1px;
+    }
+    .footer-row {
+        width: 90%;
+    }
+    .footer-row div {
+        width: 48%;
+        font-size: 75%;
+    }
+    .footer-row a {
+        font-size: 200%;
+    }
+    /* index page */
+    #moto {
+        width: 70%;
+        margin: 340px auto 0;
+        padding: 5px;
+        text-align: center;
+        font-size: 80%;
+        color: white;
+    }
+    #pros {
+        height: 200px;
+    }
+    #pros>div {
+        width: 25%;
+        height: 50px;
+        margin: 10px 2%;
+        padding-top: 10px;
+        font-size: 80%;
+    }
+    #pros h3 {
+        font-size: 150%;
+    }
+    #info {
+        width: 90%;
+    }
+    #info h2 {
+        font-size: 130%;
+    }
+    #info p {
+        font-size: 100%;
+    }
+    .info-row {
+        margin: 5px auto;
+    }
+    #info div {
+        width: 100%;
+        margin: 5px auto;
+    }
+    .info-left {
+        position: static;
+    }
+    .info-right {
+        position: static;
+    }
+    /* About us page*/
     #history {
         width: 90%;
         margin: 5px auto;
@@ -783,8 +719,8 @@ footer {
     #partners h4 {
         font-size: 70%;
     }
-}
 
+}
 
 /*icons:
 hat-wizard

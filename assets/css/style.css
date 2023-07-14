@@ -159,7 +159,7 @@ footer {
     vertical-align: top;
 }
 
-#pros h3 {
+#pros i {
     font-size: 200%;
 }
 
@@ -616,7 +616,7 @@ footer {
         padding-top: 10px;
         font-size: 80%;
     }
-    #pros h3 {
+    #pros i {
         font-size: 150%;
     }
     #info {

@@ -28,6 +28,7 @@ h3 {
     font-size: 150%;
 }
 
+/* header */
 header {
     height: 120px;
     background-color: #800000;
@@ -88,6 +89,7 @@ header>div {
     border-bottom: 2px solid #ffcc99;
 }
 
+/* footer */
 footer {
     background-color: #666666;
 }
@@ -118,6 +120,7 @@ footer {
 
 /* INDEX.HTML */
 
+/* section main */
 #main {
     height: 400px;
     background-color: #333;
@@ -141,6 +144,7 @@ footer {
     font-size: 100%;
 }
 
+/* section pros*/
 #pros {
     height: 140px;
     text-align: center;
@@ -159,6 +163,7 @@ footer {
     font-size: 200%;
 }
 
+/* section info*/
 #info {
     width: 60%;
     margin: 15px auto;
@@ -195,9 +200,9 @@ footer {
     width: 100%;
 }
 
-
 /* BOOKING.HTML */
 
+/* section booking */
 #ticket-background {
     background:
     url("../images/train-inside.png")
@@ -318,6 +323,7 @@ footer {
     color: #ffcc99;
 }
 
+/* section booking info */
 #booking-info {
     width: 90%;
     margin: 10px auto;
@@ -341,6 +347,7 @@ footer {
 
 /* ABOUT US page */
 
+/* section history */
 #history {
     width: 70%;
     margin: 15px auto;
@@ -452,6 +459,7 @@ footer {
     color: #ffcc99;
 }
 
+/* section partners*/
 #partners {
     width: 94%;
     margin: 15px auto;
@@ -502,10 +510,7 @@ footer {
 
 /* RESPONSIVE ELEMENTS*/
 
-/*@media screen and (max-width: 1200px) {
-
-}*/
-
+/* for medium size screens */
 @media screen and (max-width: 950px) {
     /*header and footer*/
     header {
@@ -521,9 +526,6 @@ footer {
     #title {
         margin-top: 10px;
     }
-/*    #menu {
-        padding-top: 8px;
-    }*/
     #menu li {
         font-size: 80%;
     }
@@ -548,7 +550,6 @@ footer {
     .partners-header {
         width: 70%;
     }
-
     .partner {
         width: 15%;
         height: 200px;
@@ -560,9 +561,8 @@ footer {
         margin: 0 auto;
     }
 }
-
+/* for smaller screens */
 @media screen and (max-width: 800px) {
-    /*header and footer*/
     header {
         height: 70px;
     }
@@ -690,9 +690,8 @@ footer {
     }
 
 }
-
+/* for mobile devices */
 @media screen and (max-width: 600px) {
-
     #ticket-form {
         margin: 20% 0;
     }
@@ -709,13 +708,11 @@ footer {
     #ticket-header {
         font-size: 200%;
     }
-
     .ticket-data {
         width: 70%;
         margin: 5px auto;
         font-size: 3.5vw;
     }
-
     .ticket-data input {
         width: 70%;
         color: white;
@@ -723,14 +720,12 @@ footer {
         font-size: 3.5vw;
         float: right;
     }
-
     .ticket-data select {
         font-size: 2.5vw;
         border-bottom: 1px solid white;
         float: right;
         color: white;
     }
-
     .station {
         width: 70%;
         margin: 10px auto;
@@ -761,10 +756,4 @@ footer {
         width: 90%;
         margin: 15% auto;
     }
-
 }
-
-/*icons:
-hat-wizard
-
-*/

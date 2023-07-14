@@ -64,7 +64,7 @@ looks like it should be and meet the responsive design criteria.
 - ### HTML
 No errors were returned when passing the official W3C validator.
 - ### CSS
-No errors were found when passing through official (Jigsaw) validator.
+No errors were found when passing through official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Ftechnoid91.github.io%2FHogwarts-express%2Fabout.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=ru#css).
 
 ## Deployment
 <hr>

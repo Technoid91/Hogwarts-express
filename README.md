@@ -7,7 +7,7 @@ This website provides information about train service, history, reviews and tick
 In real life it can be targeted towards wide Harry Potter fan community as a part of fanfics
 or a real existing service like a theme parks.
 
-![Screenshot of website in different screen sizes](https://)
+![Screenshot of website in different screen sizes](https://i.ibb.co/Pm7qkP6/2023-07-15-16-22-11.png)
 ## Features
 <hr>
 

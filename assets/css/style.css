@@ -122,7 +122,7 @@ footer {
 
 /* section main */
 #main {
-    height: 400px;
+    height: 500px;
     background-color: #333;
     background-image: url("../images/train-img.jpg");
     background-size: cover;
@@ -133,7 +133,7 @@ footer {
 
 #moto {
     width: 20em;
-    margin: 15em 1% 0 auto;
+    margin: 20em 1% 0.1% auto;
     padding: 15px;
     background-color: #800000;
     opacity: .8;
@@ -600,7 +600,7 @@ footer {
     /* index page */
     #moto {
         width: 70%;
-        margin: 340px auto 0;
+        margin: 33em auto 0;
         padding: 5px;
         text-align: center;
         font-size: 80%;

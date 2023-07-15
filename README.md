@@ -20,11 +20,13 @@ web pages.
 
 - ### Pros
 ![screenshot of pros section](https://i.ibb.co/2S4Rv72/2023-07-14-21-26-19.png)
+
 This section shows pros of choosing travel service the
 website promotes. Include font awesome icons.
 
 - ### Info
 ![screenshot of info section](https://i.ibb.co/88DydJx/2023-07-14-21-28-05.png)
+
 Info section plays the role of booklet, showing pictures of 
 the route and short describing text.
 It provides the user with information and bring some expectations
@@ -32,16 +34,19 @@ to his future experience.
 
 - ### Footer
 ![screenshot of footer](https://i.ibb.co/cJS6bdm/2023-07-14-21-29-48.png)
+
 Footer section includes social media links in the view of icons and
 information about the company, site owner and images source.
 When hover cursor - icons turn red.
 
 - ### Booking
 ![screenshot of ticket booking](https://i.ibb.co/K2RtzQ7/2023-07-14-22-03-41.png)
+
 Section for ticket booking. Looks like the actual train ticket for
 desktops and has more simple design for mobile devices in order to 
 be readable.
 ![screenshot of ticket booking in mobile version](https://i.ibb.co/CHNqXXB/2023-07-14-22-05-06.png)
+
 Bellow ticket form there is section which imitates Recaptcha service with text "I'm not a muggle"
 to fit into Harry Potter universe and on purpose of the Easter Egg for fans.
 
@@ -55,6 +60,7 @@ This section reveals the history of Hogwarts Express.
 
 - ### Reviews 
 ![screenshot of review](https://i.ibb.co/gr3MpLW/2023-07-14-22-08-26.png)
+
 Section includes reviews on Hogwarts Express from well known people from
 the books. Includes portrait (AI generated) and short review.
 On the example screenshot above we can see adult version of Draco Malfoy,
@@ -62,6 +68,7 @@ his job title and his review. The text of review is written by AI ChatGPT.
 
 - ### User comments
 ![screenshot of user comments section](https://i.ibb.co/N9HmXxR/2023-07-14-22-10-38.png)
+
 Section shows user comments about the service in the view of table with
 avatars and text. All avatars are AI generated (Stable Diffusion).
 
@@ -70,6 +77,7 @@ Section allows user to leave the comment or ask the question.
 
 - ### Partners
 ![screenshot of partners section](https://i.ibb.co/F0zpf9p/2023-07-14-22-13-30.png)
+
 Section of other well known companies from Harry Potter lore. 
 Allows user to feel the spirit of fiction universe. 
 This section also plays role of Easter Egg.
